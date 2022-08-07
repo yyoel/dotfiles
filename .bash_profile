@@ -1,7 +1,5 @@
-HOST_NAME=minima
+HOST_NAME=iwelwel
 
-source ~/.nvm/nvm.sh
-nvm use stable
 shopt -s autocd
 shopt -s histappend
 
@@ -51,11 +49,6 @@ alias 🍺="git checkout -b drunk"
 alias a='code .'
 alias c='code .'
 alias reveal-md="reveal-md --theme night --highlight-theme hybrid --port 1337"
-alias ns='npm start'
-alias start='npm start'
-alias nr='npm run'
-alias run='npm run'
-alias nis='npm i -S'
 alias l="ls" # List files in current directory
 alias ll="ls -al" # List all files in current directory in long list format
 alias o="open ." # Open the current directory in Finder
