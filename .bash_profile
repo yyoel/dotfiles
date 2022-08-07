@@ -5,6 +5,12 @@ shopt -s histappend
 
 export PATH=$PATH:$HOME/bin
 
+# only works when pyenv is installed
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init --path)"
+  eval "$(pyenv init -)"
+fi
+
 export HISTSIZE=5000
 export HISTFILESIZE=10000
 
